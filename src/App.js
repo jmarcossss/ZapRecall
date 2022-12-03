@@ -4,8 +4,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Perguntas />
-      <Downbar />
+      {/* <Perguntas />
+      <Downbar /> */}
     </div>
   );
 }
