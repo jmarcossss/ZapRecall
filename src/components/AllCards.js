@@ -11,7 +11,7 @@ export default function AllCards({ pergunta, resposta, indice }) {
     return (
         <>
             <Card desabilita={virarPergunta ? "none" : ""}>
-                <p>Pergunta {indice + 1}</p>
+                <p data-test="flashcard-text">Pergunta {indice + 1}</p>
                 <img
                     className="icone-seta"
                     src={seta} alt="icone seta"

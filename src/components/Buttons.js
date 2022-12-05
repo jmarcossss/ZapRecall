@@ -4,21 +4,21 @@ export default function Buttons(){
     return(
         <ContainerBotao>
             <ListaBotoes >
-                <Botao cor="#FF3030">
+                <Botao cor="#FF3030" data-test="no-btn">
                     Não lembrei!
                 </Botao> 
                 
-                <Botao cor="#FF922E">
+                <Botao cor="#FF922E" data-test="partial-btn">
                     Quase não lembrei!
                 </Botao> 
     
-                <Botao cor="#2FBE34">
+                <Botao cor="#2FBE34" data-test="zap-btn">
                     Zap!
                 </Botao> 
 
             </ListaBotoes>
 
-            <p className="qtd-concluidos">0/4 CONCLUÍDOS</p>
+            <p className="qtd-concluidos" data-test="footer">0/4 CONCLUÍDOS</p>
            
         </ContainerBotao>
     )
