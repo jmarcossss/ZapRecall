@@ -52,7 +52,8 @@
   display: flex;
   width: 80%;
   justify-content: space-between;
-  margin: 20px;
+  margin: 20px;  
+  
 }
 
 /* Você vai precisar trocar a cor dos botões e alguns textos!
@@ -103,6 +104,7 @@
 }
 
 .pergunta-aberta {
+  
   width: 300px;
   margin: 12px;
   padding: 15px;
